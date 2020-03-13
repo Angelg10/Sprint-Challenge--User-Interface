@@ -166,3 +166,71 @@ header {
 }
 
 /* box code start */
+
+
+
+/* about page start */
+
+.aboutheadings {
+    padding-top: 5%;
+}
+
+.about .about-container {
+    border-bottom: 1px dashed black;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* workplan start */
+.workplan {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategy-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-top: 5%;
+}
+
+.working-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.places-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-top: 5%;
+}
+
+.meeting-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+button {
+    border: 2px solid black;
+    background-color: white;
+    padding: 2% 5%;
+    margin: 2% 0%;
+    border-radius: 6px;
+}
+
+/* worktogether start */
+.worktogether {
+    border-bottom: 1px dashed black;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    padding-top: 3%;;
+}
