@@ -110,7 +110,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+
+} 
 
 .bottom-content {
     display: flex;
@@ -144,3 +145,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* nav code start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 5%;
+}
+
+/* header code start */
+header {
+    margin-bottom: 3%;
+}
+
+/* box code start */
