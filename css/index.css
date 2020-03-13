@@ -104,14 +104,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-
 } 
+
+.box-color1 {
+    background: teal;
+}
+
+.box-color2 {
+    background: gold;
+}
+
+.box-color3 {
+    background: cadetblue;
+}
+
+.box-color4 {
+    background: coral;
+}
+
+.box-color5 {
+    background: crimson;
+}
+
+.box-color6 {
+    background: forestgreen;
+}
+
+.box-color7 {
+    background: darkorchid;
+}
+
+.box-color8 {
+    background: hotpink;
+}
+
+.box-color9 {
+    background: indigo;
+}
+
+.box-color10{
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
