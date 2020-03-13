@@ -104,12 +104,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+} 
+
+.box-color1 {
+    background: teal;
+}
+
+.box-color2 {
+    background: gold;
+}
+
+.box-color3 {
+    background: cadetblue;
+}
+
+.box-color4 {
+    background: coral;
+}
+
+.box-color5 {
+    background: crimson;
+}
+
+.box-color6 {
+    background: forestgreen;
+}
+
+.box-color7 {
+    background: darkorchid;
+}
+
+.box-color8 {
+    background: hotpink;
+}
+
+.box-color9 {
+    background: indigo;
+}
+
+.box-color10{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +183,136 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* nav code start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 5%;
+}
+
+/* header code start */
+header {
+    margin-bottom: 3%;
+}
+
+/* box code start */
+
+
+
+/* about page start */
+
+.aboutheadings {
+    padding-top: 5%;
+}
+
+.about .about-container {
+    border-bottom: 1px dashed black;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* workplan start */
+.workplan {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategy-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-top: 5%;
+}
+
+.working-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.places-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-top: 5%;
+}
+
+.meeting-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+button {
+    border: 2px solid black;
+    background: white;
+    color: black;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 5%;
+    }
+
+button:hover {
+    color: #404040;
+    letter-spacing: 3px;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.1s ease 0s;
+    }
+
+/* worktogether start */
+.worktogether {
+    border-bottom: 1px dashed black;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    padding-top: 3%;;
+}
+
+
+/* blog page starts */
+
+.blog-content {
+    border-bottom: 1px dashed black;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    
+}
+
+ul {
+    list-style-type: disc;
+    padding-top: 5%;
+    margin-left: 3%;
+}
+
+/* contact page starts */
+form {
+    display: flex;
+    width: 30%;
+    height: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.contactform {
+    margin: 15%;
+}
+
+.contactusheading {
+    text-align: center;
 }
